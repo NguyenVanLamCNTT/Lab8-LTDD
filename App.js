@@ -1,11 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import CAU1 from './components/CAU1';
+import CAU2 from './components/CAU2';
+import CAU3 from './components/CAU3';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      {/* <CAU1/> */}
+      {/* <CAU2/> */}
+      <CAU3/>
     </View>
   );
 }
